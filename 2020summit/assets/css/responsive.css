@@ -15,9 +15,7 @@
     }
     h1.main-title{
         font-size: 32px;
-        line-height: 1.1em;
-        margin-bottom: 30px;
-    
+        line-height: 1em;    
     }
     iframe{
         height: 200px;

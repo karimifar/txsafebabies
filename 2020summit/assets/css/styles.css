@@ -6,42 +6,71 @@
     font-weight: 500;
 }
 h1{
-    font-family: "museo-sans-display", sans-serif;
-    font-weight: 800;
+    font-family: 'utopia-std-display', serif;
+    font-weight: 900;
     color: #095772;
 }
-h2{
-    font-size: 36px;
-    color: #095772;
-    font-weight: 700;
-}
-h3{
-    font-size: 16px;
-    background-color: #478499;
-    width: fit-content;
-    color: #fff;
-    padding: 2px 5px;
-}
+
+
 h1.main-title{
     font-size: 60px;
-    line-height: 1.1em;
-    margin-bottom: 40px;
-    color: #fff;
+    line-height: 0.9em;
+    letter-spacing: -1px;
+    margin-bottom: 0px;
+    color: #6cabb9;
     width:80%;
     max-width: 800px;
 
 }
 .headline{
-    background: #095772;
-
+    background: #44475a;
+    padding: 150px 0 20px;
+    width:100%;
+}
+.head-col{
+    padding: 0 20px;
+}
+.logo-col{
+    width: 33%;
+    display: flex;
+    justify-content: flex-end;
+}
+.logo-wrap{
+    max-width: 160px;
+    align-self: flex-end;
+}
+img{
+    width:100%;
+    height: auto;
+}
+.title-col{
+    width: 67%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.head-wrap{
+    max-width:1140px;
+    margin: auto;
 }
 .container{
-    padding-top: 100px;
-    padding-bottom: 200px;
+    padding: 0
 }
-.headline .container{
-    padding: 50px 20px;
+.content{
+    margin-top: 40px;
 }
+
+.lodging-content{
+    text-align: right;
+}
+
+
+
+
+
+
+
+
 a{
     color:unset;
     text-decoration: underline;
@@ -93,13 +122,3 @@ hr{
     font-size: 14px;
 }
 
-.logo-wrap{
-    width:20%;
-    min-width: 200px;
-    height: auto;
-}
-img{
-    width:100%;
-    height: auto;
-    object-fit: scale-down;
-}
