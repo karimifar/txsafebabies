@@ -1,8 +1,10 @@
 @media only screen and (max-width: 1024px) {
-    iframe{
+    /* iframe{
         height: 160px;
+    } */
+    h1.main-title{
+        font-size: 48px;
     }
-
 
   }
 
@@ -10,8 +12,14 @@
 
 
   @media only screen and (max-width: 768px) {
-    .container{
-        padding-top: 40px;
+    .headline{
+        padding: 10% 10px 20px;
+    }
+      .content-row{
+          /* flex-direction: column-reverse; */
+      }
+    .content{
+        margin: 30px auto;
     }
     h1.main-title{
         font-size: 32px;
@@ -20,11 +28,24 @@
     iframe{
         height: 200px;
     }
+    .lodging-content{
+        text-align: center;
+        padding-right: 15px;
+    }
   }
 
 
 
 
   @media only screen and (max-width: 600px) {
+    h1.main-title{
+        font-size: 26px;
+    }
+    .title-col{
+        width: 75%;
+    }
+    .logo-col{
+        width: 25%;
+    }
 
   }
