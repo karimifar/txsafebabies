@@ -51,6 +51,11 @@ h1.main-title{
 .logo-wrap{
     max-width: 180px;
     align-self: flex-end;
+    height: fit-content;
+    display: table;
+}
+.logo-wrap img{
+    width: 180px;
 }
 img{
     width:100%;
@@ -105,9 +110,7 @@ img{
     border-radius: 50%;
     overflow: hidden;
 }
-img{
-    width:100%;
-}
+
 .speaker-info{
     width: 60%;
     flex-grow: 1;
