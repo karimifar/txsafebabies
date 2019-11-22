@@ -207,4 +207,9 @@ hr{
 .webinar li{
     font-size: 14px;
 }
-
+.left-align{
+    text-align: left;
+}
+i{
+    color: #478499
+}
