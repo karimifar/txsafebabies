@@ -22,9 +22,12 @@
     }
     .lodging-content{
         margin-bottom: 30px;
+        margin-top: 20px;
+        padding-top: 20px;
+        border-top: 1px solid #aaa
     }
       .content-row{
-          /* flex-direction: column-reverse; */
+          flex-direction: column-reverse;
       }
     .content{
         margin: 30px auto;
