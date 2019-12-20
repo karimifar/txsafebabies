@@ -89,7 +89,26 @@ img{
     margin: 30px 0;
 }
 .register-btn{
-    margin-bottom: 30px;
+    margin-bottom: 10px;
+}
+.agenda-btn{
+    margin-top: 1px;
+    /* background-color: #e57948; */
+    border: 1px solid #478499;
+    color: #478499;
+    background-color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    width: 220px;
+    border-radius: 10px;
+    padding: 10px 10px;
+    font-weight: 400;
+    font-size: 12px;
+    transition: all 0.2s ease-in-out;
+}
+.agenda-btn:hover{
+    color: #fff;
+    background: #6cabb9;
 }
 
 .big-body{
@@ -181,12 +200,14 @@ button.btn{
     padding: 10px 10px;
     font-weight: 900;
     font-size: 22px;
-    opacity: 0.5;
+    transition: all 0.2s ease-in-out;
+    /* opacity: 0.5; */
 }
 .btn:hover{
     color: #fff;
     /* background-color: #fff; */
-    opacity: 0.8;
+    /* opacity: 0.8; */
+    box-shadow: 0 0 5px #6cabb9;
 }
 .indent{
     padding-left: 15px;
@@ -213,4 +234,21 @@ hr{
 }
 i{
     color: #478499
+}
+
+
+/* THANK YOU PAGE */
+
+.thanks{
+    text-align: center;
+    margin-top: 10%;
+}
+h2.thanks{
+    font-weight: 900;
+    color: #44475a;
+}
+
+.thanks p{
+    font-size: 24px;
+    margin-bottom: 5px;
 }
