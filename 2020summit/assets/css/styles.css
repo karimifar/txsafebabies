@@ -257,6 +257,9 @@ h2.thanks{
     display: flex;
     padding: 5px;
 }
+.inline-agenda h1 span{
+    font-size:18px;
+}
 .inline-agenda h2{
     background-color: #478499;
     color: #fff;
@@ -266,6 +269,7 @@ h2.thanks{
     font-size: 20px;
     margin-bottom: 5px;
 }
+
 .agenda-row:hover{
     background-color: #eeeeeeaa;
 }
