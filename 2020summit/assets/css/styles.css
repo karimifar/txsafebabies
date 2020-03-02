@@ -252,3 +252,61 @@ h2.thanks{
     font-size: 24px;
     margin-bottom: 5px;
 }
+
+.agenda-row{
+    display: flex;
+    padding: 5px;
+}
+.inline-agenda h2{
+    background-color: #478499;
+    color: #fff;
+    width: fit-content;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.agenda-row:hover{
+    background-color: #eeeeeeaa;
+}
+.agenda-time{
+    max-width: 30%;
+    padding: 5px;
+    min-width: 140px;
+    font-size: 18px;
+}
+.agenda-info{
+    padding: 5px;
+    max-width: 100%;
+}
+.agenda-info h3{
+    line-height: unset;
+    text-transform: none;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+.agenda-info h3.italic{
+    font-weight: 300;
+    font-style: italic;
+}
+h4.name{
+    color: #e57948;
+    margin-bottom: 2px;
+}
+p.title{
+    color: #478499;
+    margin-bottom: 3px;
+}
+.speakers-wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+.speakers-wrap{
+    padding-left: 20px;
+}
+.speaker{
+    width:50%;
+    flex-grow: 1;
+    min-width: 150px;
+    padding: 5px;
+}
