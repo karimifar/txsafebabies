@@ -90,6 +90,10 @@ img{
 }
 .register-btn{
     margin-bottom: 10px;
+    border-radius: 10px;
+}
+button{
+    margin: 0 3px;
 }
 .agenda-btn{
     margin-top: 1px;
@@ -103,12 +107,12 @@ img{
     border-radius: 10px;
     padding: 10px 10px;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 22px;
     transition: all 0.2s ease-in-out;
 }
 .agenda-btn:hover{
     color: #fff;
-    background: #6cabb9;
+    background: #478499;
 }
 
 .big-body{
@@ -187,7 +191,7 @@ iframe{
 }
 
 button.btn{
-    margin-top: 10px;
+    /* margin-top: 10px; */
     /* background-color: #e57948; */
     border: 5px solid #e57948;
     color: #fff;
@@ -202,6 +206,12 @@ button.btn{
     font-size: 22px;
     transition: all 0.2s ease-in-out;
     /* opacity: 0.5; */
+}
+.buttons-wrap{
+    justify-content: center;
+}
+.buttons-wrap a{
+    width: fit-content;
 }
 .btn:hover{
     color: #fff;
@@ -253,6 +263,7 @@ h2.thanks{
     margin-bottom: 5px;
 }
 
+/* Agenda PAGE */
 .agenda-row{
     display: flex;
     padding: 5px;
