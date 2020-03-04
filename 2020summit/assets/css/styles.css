@@ -9,7 +9,9 @@ h1{
     font-family: 'utopia-std-display', serif;
     font-weight: 900;
 }
-
+.title-col a {
+    text-decoration: none ;
+}
 h3{
     font-size: 18px;
     font-weight: 1000;
@@ -147,6 +149,10 @@ button{
 }
 .topics{
     margin-bottom: 50px;
+}
+.cme h2{
+    color: #478499;
+    font-size: 20px;
 }
 ul{
     /* list-style: none; */
@@ -324,4 +330,23 @@ p.title{
     flex-grow: 1;
     min-width: 150px;
     padding: 5px;
+}
+.agenda-side {
+    padding-right: 30px;
+    /* margin-top: 5rem; */
+}
+.agenda-side .cme h2{
+    font-size: 16px;
+    color: #44475a;
+}
+
+.agenda-side .cme h4{
+    font-size: 16px;
+}
+.cme .stared{
+    font-weight: 700;
+    color: #44475a;
+    /* background-color: #44475a; */
+    border: 1px solid #478499;
+    padding:8px;
 }
