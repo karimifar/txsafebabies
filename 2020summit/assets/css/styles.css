@@ -87,9 +87,16 @@ img{
     margin: 60px auto;
 }
 
-.lodging-content{
+.side-bar{
     text-align: right;
-    padding-right: 30px;
+    padding: 20px;
+    background-color: #6cabb9;
+    color: #fff;
+    height: fit-content;
+    font-size: 16px;
+}
+.body-content{
+    padding-left: 40px;
 }
 
 .body-centered{
@@ -194,7 +201,7 @@ a{
     text-decoration: underline;
 }
 a:hover{
-    color: #e57948;
+    color: #E75D7F;
 }
 
 iframe{
@@ -205,9 +212,9 @@ iframe{
 button.btn{
     /* margin-top: 10px; */
     /* background-color: #e57948; */
-    border: 5px solid #e57948;
+    border: 5px solid #E75D7F;
     color: #fff;
-    background-color: #e57948;
+    background-color: #E75D7F;
     text-transform: uppercase;
     line-height: 1.2;
     text-align: center;
@@ -318,7 +325,7 @@ h2.thanks{
     font-style: italic;
 }
 h4.name{
-    color: #e57948;
+    color: #E75D7F;
     margin-bottom: 2px;
 }
 p.title{

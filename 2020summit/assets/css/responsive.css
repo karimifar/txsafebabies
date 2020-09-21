@@ -13,6 +13,13 @@
 
 
 @media only screen and (max-width: 768px) {
+    .body-content{
+        padding: 15px;
+    }
+    .side-bar{
+        background: none;
+        color:#000;
+    }
       
     .logo-wrap img{
         width: 130px;
