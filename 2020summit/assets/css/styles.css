@@ -24,6 +24,9 @@ h3{
     text-transform: uppercase;
     color: #44475a;
 }
+.summit-main h3{
+    margin-top:24px;
+}
 h2{
     font-weight: 100;
     font-family: 'museo-sans-rounded', sans-serif;
@@ -130,6 +133,15 @@ button{
 .agenda-btn:hover{
     color: #fff;
     background: #478499;
+}
+.outline-pink-btn{
+    border: 1px solid #E75D7F;
+    color: #E75D7F;
+    background-color: #fff;
+}
+.outline-pink-btn:hover{
+    color: #fff;
+    background: #E75D7F;
 }
 .register-btn{
     border: 1px solid #E75D7F;
@@ -238,6 +250,10 @@ button.btn{
 }
 .buttons-wrap{
     justify-content: center;
+    margin-bottom: 0;
+}
+.reg-note{
+    margin: 5px 0 30px;
 }
 .buttons-wrap a{
     width: fit-content;
