@@ -1,0 +1,75 @@
+@media only screen and (max-width: 1201px) {
+    .init-card h2{
+        font-size: 24px;
+    }
+    .init-card p{
+        font-size: 14px;
+    }
+
+
+  }
+
+
+
+
+  @media only screen and (max-width: 991px) {
+    .intro{
+        width: 100%;
+    }
+    .init-card h2{
+        font-size: 20px;
+        min-height: 40px;
+    }
+    .init-card p{
+        font-size: 14px;
+    }
+    .summit-title p{
+        font-size: 24px;
+    }
+    .summit-info p{
+        font-size: 22px;
+    }
+    .summit-info button{
+        font-size: 20px;
+    }
+  }
+
+
+
+
+  @media only screen and (max-width: 768px) {
+      h1.main-title{
+          font-size: 48px;
+          
+      }
+      .site-title{
+        padding-left: 10px;
+        margin-left: 20px;
+      }
+      .head-content{
+          flex-wrap: wrap;
+      }
+      .init-card h2{
+        min-height: 0px;
+    }
+
+    .home-row{
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+    .summit-info, .summit-title{
+        padding: 5px;
+    }
+
+    .summit-title p{
+        font-size: 18px;
+        padding: 0;
+        padding-left: 4px;
+    }
+    .summit-info p{
+        font-size: 16px;
+    }
+    .summit-info button{
+        font-size: 16px;
+    }
+  }
