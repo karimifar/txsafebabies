@@ -104,8 +104,10 @@ h3{
     width: 100%;
 }
 .init-card{
+    width:33%;
     padding: 10px;
     margin-bottom: 30px;
+    padding: 15px;
 }
 .init-card h2{
     font-size: 28px;
@@ -147,7 +149,8 @@ h1.main-title{
 }
 
 .init-row{
-    padding: 5% 10%;
+    padding: 5% 15%;
+    flex-wrap: wrap;
 }
 .headline .container{
     padding: 50px 20px;
