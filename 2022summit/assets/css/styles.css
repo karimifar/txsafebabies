@@ -351,7 +351,7 @@ h2.thanks{
     font-style: italic;
 }
 h4.name{
-    color: #E75D7F;
+    color: #478499;
     margin-bottom: 2px;
 }
 p.title{
@@ -363,13 +363,13 @@ p.title{
     flex-wrap: wrap;
 }
 .speakers-wrap{
-    padding-left: 20px;
+    padding-left: 0px;
 }
 .speaker{
-    width:50%;
+    width:100%;
     flex-grow: 1;
     min-width: 150px;
-    padding: 5px;
+    padding: 5px 0;
 }
 .agenda-side {
     padding-right: 30px;
