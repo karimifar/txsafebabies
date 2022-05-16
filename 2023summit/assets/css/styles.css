@@ -1,0 +1,393 @@
+/* Styles for all */
+
+*{
+    font-family: "museo-sans", sans-serif;
+    /* font-family: "le-monde-livre-std", serif; */
+    font-weight: 300;
+}
+h1{
+    font-family: 'utopia-std-display', serif;
+    font-weight: 900;
+    color: #44475a
+}
+h1 .pink{
+    color: #E75D7F;
+    font-family: 'utopia-std-display', serif;
+
+}
+.title-col a {
+    text-decoration: none ;
+}
+h3{
+    font-size: 18px;
+    font-weight: 1000;
+    text-transform: uppercase;
+    color: #44475a;
+}
+.summit-main h3{
+    margin-top:24px;
+}
+h2{
+    font-weight: 100;
+    font-family: 'museo-sans-rounded', sans-serif;
+    margin-bottom: 20px;
+}
+h4{
+    font-size: 18px;
+}
+h1.main-title{
+    font-size: 70px;
+    line-height: 0.9em;
+    letter-spacing: -1px;
+    margin-bottom: 0px;
+    color: #6cabb9;
+    width:80%;
+    max-width: 800px;
+
+}
+.headline{
+    background: #44475a;
+    padding: 10% 50px 20px;
+    width:100%;
+}
+.head-col{
+    padding: 0 20px;
+    padding-right: 0;
+}
+.logo-col{
+    width: 33%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+}
+.logo-wrap{
+    max-width: 250px;
+    align-self: flex-end;
+    height: fit-content;
+    display: table;
+}
+.logo-wrap img{
+    width: 250px;
+}
+img{
+    width:100%;
+    height: auto;
+}
+.title-col{
+    width: 67%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.head-wrap{
+    max-width:1140px;
+    margin: auto;
+}
+.container{
+    /* padding: 0 */
+}
+.content{
+    margin: 60px auto;
+}
+
+.side-bar{
+    text-align: right;
+    padding: 20px;
+    background-color: #6cabb9;
+    color: #fff;
+    height: fit-content;
+    font-size: 16px;
+}
+.body-content{
+    padding-left: 40px;
+}
+
+.body-centered{
+    text-align: center;
+    margin: 30px 0;
+}
+.register-btn{
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+button{
+    margin: 0 3px;
+}
+.pbh-btn{
+    margin-top: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    width: 220px;
+    border-radius: 10px;
+    padding: 10px 10px;
+    font-weight: 400;
+    font-size: 22px;
+    transition: all 0.2s ease-in-out;
+}
+.agenda-btn{
+    border: 1px solid #478499;
+    color: #478499;
+    background-color: #fff;
+    
+}
+.agenda-btn:hover{
+    color: #fff;
+    background: #478499;
+}
+.outline-pink-btn{
+    border: 1px solid #E75D7F;
+    color: #E75D7F;
+    background-color: #fff;
+}
+.outline-pink-btn:hover{
+    color: #fff;
+    background: #E75D7F;
+}
+.register-btn{
+    border: 1px solid #E75D7F;
+    color: #fff;
+    background-color: #E75D7F;
+}
+.register-btn:hover{
+    box-shadow: #E75D7F 0 0 6px ;
+}
+
+.big-body{
+    font-size: 20px;
+}
+.speakers{
+    margin: 0px 0 50px;
+}
+.speaker-card{
+    display: flex;
+    padding: 10px;
+}
+.headshot-wrap{
+    width:fit-content;
+}
+.headshot-wrap div{
+    width:120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.speaker-info{
+    width: 60%;
+    flex-grow: 1;
+    align-self: center;
+    padding: 15px;
+}
+.speaker-info p{
+    font-size: 16px;
+    line-height: 1.2em;
+}
+.topics{
+    margin-bottom: 50px;
+}
+.cme h2{
+    color: #478499;
+    font-size: 20px;
+}
+ul{
+    /* list-style: none; */
+    padding-left: 20px;
+}
+li{
+    list-style-position: outside;
+    font-size: 18px;
+    /* margin-bottom: 0.6em; */
+}
+li{
+    background: #44475a44;
+    padding: 10px;
+}
+li:nth-child(even){
+    background: #44475a11;
+}
+
+.body-highlight{
+    font-size: 16px;
+    background: #6cabb9;
+    padding: 30px;
+    color: #fff;
+    text-align: center;
+    font-style: italic;
+}
+
+
+
+
+a{
+    color:unset;
+    text-decoration: underline;
+}
+a:hover{
+    color: #E75D7F;
+}
+
+iframe{
+    width: 100%;
+    height: 200px;
+}
+
+button.btn{
+    /* margin-top: 10px; */
+    /* background-color: #e57948; */
+    border: 5px solid #E75D7F;
+    color: #fff;
+    background-color: #E75D7F;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    width: 220px;
+    display: inline-block;
+    padding: 10px 10px;
+    font-weight: 900;
+    font-size: 22px;
+    transition: all 0.2s ease-in-out;
+    /* opacity: 0.5; */
+}
+.buttons-wrap{
+    justify-content: center;
+    margin-bottom: 0;
+}
+.reg-note{
+    margin: 5px 0 30px;
+}
+.buttons-wrap a{
+    width: fit-content;
+}
+.btn:hover{
+    color: #fff;
+    /* background-color: #fff; */
+    /* opacity: 0.8; */
+    box-shadow: 0 0 5px #6cabb9;
+}
+.indent{
+    padding-left: 15px;
+    font-size: 14px;
+    margin-top:5px;
+    font-weight: 100;
+    text-align: center;
+}
+hr{
+    border-color: #478499;
+}
+.row.webinar{
+    margin-bottom: 20px;
+}
+.webinar p{
+    font-size: 14px;
+    line-height: 1.2em;
+}
+.webinar li{
+    font-size: 14px;
+}
+.left-align{
+    text-align: left;
+}
+i{
+    color: #478499
+}
+
+
+/* THANK YOU PAGE */
+
+.thanks{
+    text-align: center;
+    margin-top: 10%;
+}
+h2.thanks{
+    font-weight: 900;
+    color: #44475a;
+}
+
+.thanks p{
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+/* Agenda PAGE */
+.agenda-row{
+    display: flex;
+    padding: 5px;
+}
+.inline-agenda h1 span{
+    font-size:18px;
+}
+.inline-agenda h2{
+    background-color: #478499;
+    color: #fff;
+    width: fit-content;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 5px;
+    /* text-decoration: line-through; */
+}
+
+.agenda-row:hover{
+    background-color: #eeeeeeaa;
+}
+.agenda-time{
+    max-width: 30%;
+    padding: 5px;
+    min-width: 185px;
+    font-size: 18px;
+}
+.agenda-info{
+    padding: 5px;
+    max-width: 100%;
+}
+.agenda-info h3{
+    line-height: unset;
+    text-transform: none;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+.agenda-info h3.italic{
+    font-weight: 300;
+    font-style: italic;
+}
+h4.name{
+    color: #478499;
+    margin-bottom: 2px;
+}
+p.title{
+    color: #478499;
+    margin-bottom: 3px;
+}
+.speakers-wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+.speakers-wrap{
+    padding-left: 0px;
+}
+.speaker{
+    width:100%;
+    flex-grow: 1;
+    min-width: 150px;
+    padding: 5px 0;
+}
+.agenda-side {
+    padding-right: 30px;
+    /* margin-top: 5rem; */
+}
+.agenda-side .cme h2{
+    font-size: 16px;
+    color: #44475a;
+
+}
+
+.agenda-side .cme h4{
+    font-size: 16px;
+}
+.cme .stared{
+    font-weight: 700;
+    color: #44475a;
+    /* background-color: #44475a; */
+    border: 1px solid #478499;
+    padding:8px;
+}
