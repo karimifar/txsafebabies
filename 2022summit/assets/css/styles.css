@@ -15,6 +15,24 @@ h1 .pink{
     font-family: 'utopia-std-display', serif;
 
 }
+#recordings hr{
+    border-width: 2px;
+    border-color: #6cabb944;
+    border-style:dotted;
+}
+.session-vid{
+    /* border-bottom: 1px solid #478499; */
+    margin: 20px 0;
+}
+.vid-title{
+    font-size: 22px;
+    color: #E75D7F;
+    font-weight: 700;margin-bottom: 0;
+    
+}
+.vimeo{
+    margin-bottom: 20px;
+}
 .title-col a {
     text-decoration: none ;
 }
@@ -195,11 +213,11 @@ ul{
 }
 li{
     list-style-position: outside;
-    font-size: 18px;
+    /* font-size: 18px; */
     /* margin-bottom: 0.6em; */
 }
 li{
-    background: #44475a44;
+    background: #44475a2d;
     padding: 10px;
 }
 li:nth-child(even){
