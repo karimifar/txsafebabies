@@ -54,18 +54,21 @@ h4{
     font-size: 18px;
 }
 h1.main-title{
-    font-size: 70px;
-    line-height: 0.9em;
+    font-size: 48px;
+    line-height: 0.98em;
     letter-spacing: -1px;
     margin-bottom: 0px;
-    color: #6cabb9;
+    color: #fff;
     width:80%;
     max-width: 800px;
 
 }
+#pre-title{
+    color: #F7DBFF;
+}
 .headline{
     background: #44475a;
-    padding: 10% 50px 20px;
+    padding: 50px 50px 20px;
     width:100%;
 }
 .head-col{
@@ -80,7 +83,8 @@ h1.main-title{
 }
 .logo-wrap{
     max-width: 250px;
-    align-self: flex-end;
+    margin-bottom: 50px;
+    align-self: flex-start;
     height: fit-content;
     display: table;
 }
@@ -117,7 +121,7 @@ img{
     font-size: 16px;
 }
 .body-content{
-    padding-left: 40px;
+    /* padding-left: 40px; */
 }
 
 .body-centered{
@@ -408,4 +412,26 @@ p.title{
     /* background-color: #44475a; */
     border: 1px solid #478499;
     padding:8px;
+}
+
+div.register{
+    margin-bottom: 60px;
+    text-align: center;
+}
+.webinar-info{
+    margin-bottom: 40px;
+}
+h2.webinar-title{
+    font-weight: 700;
+    color:#44475a;
+    margin-bottom: .25em;
+}
+.webinar-info p{
+    margin-bottom: 5px;
+    font-weight: 500;
+    font-size: 18px;
+}
+.webinar-info .date{
+    color: #478499;
+    font-weight: 700;
 }
