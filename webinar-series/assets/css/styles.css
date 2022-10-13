@@ -55,9 +55,8 @@ h4{
 }
 h1.main-title{
     font-size: 48px;
-    line-height: 0.98em;
-    letter-spacing: -1px;
-    margin-bottom: 0px;
+    letter-spacing: 0px;
+    margin-bottom: 20px;
     color: #fff;
     width:80%;
     max-width: 800px;
