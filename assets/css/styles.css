@@ -40,7 +40,10 @@ h3{
 .summit-ad{
     width: 70%;
     margin: auto;
-    margin-top: 5%;
+    margin-top: 10px;
+}
+.summit-ad:nth-child(1){
+    margin-top: 40px;
 }
 /* .banner-ad{
     height: 20vh;
@@ -151,6 +154,7 @@ h1.main-title{
 }
 .headline{
     background: #095772;
+    margin-bottom: 40px;
 
 }
 
