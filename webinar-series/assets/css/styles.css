@@ -434,3 +434,7 @@ h2.webinar-title{
     color: #478499;
     font-weight: 700;
 }
+
+img.speaker{
+    max-width: 800px;
+}
