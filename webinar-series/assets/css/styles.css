@@ -433,6 +433,7 @@ h2.webinar-title{
 .webinar-info .date{
     color: #478499;
     font-weight: 700;
+    margin-bottom: 24px;
 }
 
 img.speaker{
