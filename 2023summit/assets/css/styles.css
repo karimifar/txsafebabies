@@ -137,6 +137,17 @@ button{
     color: #478499;
     background-color: #fff;
 }
+.register-23{
+    width: auto;
+    margin: 24px auto;
+    border: 1px solid #478499;
+    color: #478499;
+    background-color: #fff;
+}
+.register-23:hover{
+    color: #fff;
+    background: #478499;
+}
 .agenda-btn:hover{
     color: #fff;
     background: #478499;
