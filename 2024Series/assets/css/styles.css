@@ -110,12 +110,12 @@ img {
 }
 
 .side-bar {
-  text-align: right;
+  /* text-align: right;
   padding: 20px;
   background-color: #6cabb9;
   color: #fff;
   height: fit-content;
-  font-size: 16px;
+  font-size: 16px; */
 }
 .body-content {
   /* padding-left: 40px; */
@@ -173,24 +173,9 @@ button {
 .big-body {
   font-size: 20px;
 }
-.speakers {
-  margin: 0px 0 50px;
-}
-.speaker-card {
-  display: flex;
-  padding: 10px;
-}
-.headshot-wrap {
-  width: fit-content;
-}
-.headshot-wrap div {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  overflow: hidden;
-}
 
-.speaker-info {
+
+/* .speaker-info {
   width: 60%;
   flex-grow: 1;
   align-self: center;
@@ -199,7 +184,7 @@ button {
 .speaker-info p {
   font-size: 16px;
   line-height: 1.2em;
-}
+} */
 .topics {
   margin-bottom: 50px;
 }
@@ -372,20 +357,9 @@ h4.name {
 p.title {
   color: #478499;
   margin-bottom: 3px;
+  font-size: 14px;
 }
-.speakers-wrap {
-  display: flex;
-  flex-wrap: wrap;
-}
-.speakers-wrap {
-  padding-left: 0px;
-}
-.speaker {
-  width: 100%;
-  flex-grow: 1;
-  min-width: 150px;
-  padding: 5px 0;
-}
+
 .agenda-side {
   padding-right: 30px;
   /* margin-top: 5rem; */
@@ -410,8 +384,52 @@ div.register {
   margin-bottom: 60px;
   text-align: center;
 }
+.webinar-wrap {
+  margin: 60px 0;
+  /* display: flex; */
+}
+.webinar-wrap:first-child{
+  margin-top:0;
+}
+
 .webinar-info {
   margin-bottom: 40px;
+  width: 100%;
+}
+.webinar-speaker {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+}
+.speaker-wrap{
+  width:30%;
+  /* display: flex;
+  flex-direction: column; */
+}
+.speaker-bio{
+  width: 70%;
+}
+.speaker-wrap img{
+  width:100px;
+  margin: auto;
+  align-self: center;
+}
+
+.speaker-info {
+  width: 100%%;
+  padding: 0 15px;
+}
+.speaker-info .name{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.1em;
+  margin: 10px 0;
+  color: #44475a
+}
+.webinar-speaker .speaker-img {
+  width: 30%;
+  height: auto
+  max-width: ;
 }
 h2.webinar-title {
   font-weight: 700;
@@ -432,6 +450,32 @@ h2.webinar-title {
 img.speaker {
   max-width: 800px;
 }
-.webinar-wrap {
-  margin: 60px 0;
+
+
+.aside {
+  margin-bottom: 10px;
+  padding: 15px;
+}
+.aside-blue {
+  /* text-align: right; */
+  /* padding: 20px; */
+  font-size: 14px;
+  background-color: #6cabb9;
+  color: #fff;
+  height: fit-content;
+}
+.ce-info {
+  color: #44475a;
+}
+.ce-info h4 {
+  /* font-size: 12px; */
+  margin-bottom: 0.2rem;
+  margin-top: 1rem;
+  font-weight: 600;
+}
+.ce-aside p {
+  margin-bottom: 0.5rem;
+}
+.ce-aside p span {
+  font-style: italic;
 }
