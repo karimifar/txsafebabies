@@ -416,8 +416,8 @@ div.register {
 }
 
 .speaker-info {
-  width: 100%%;
-  padding: 0 15px;
+  width: 100%;
+  padding-right: 15px;
 }
 .speaker-info .name{
   font-weight: 700;
