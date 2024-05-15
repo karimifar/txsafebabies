@@ -249,6 +249,11 @@ button.btn {
   margin-bottom: 20px;
   /* opacity: 0.5; */
 }
+button.download{
+  font-size: 18px;
+  background-color: #478499;
+  border-color: #478499;
+}
 .buttons-wrap {
   justify-content: center;
   margin-bottom: 0;
