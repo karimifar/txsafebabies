@@ -17,7 +17,7 @@ h2{
 }
 h3{
     font-size: 16px;
-    background-color: #478499;
+    background-color: #387088;
     width: fit-content;
     color: #fff;
     padding: 2px 5px;
@@ -58,8 +58,8 @@ iframe{
 button.btn{
     margin-top: 10px;
     /* background-color: #e57948; */
-    border: 5px solid #e57948;
-    color: #e57948;
+    border: 5px solid #B04420;
+    color: #B04420;
     text-transform: capitalize;
     line-height: 1.2;
     text-align: center;
@@ -69,7 +69,7 @@ button.btn{
 }
 .btn:hover{
     color: #fff;
-    background-color: #e57948;
+    background-color: #B04420;
     opacity: 1;
 }
 .indent{
@@ -102,4 +102,24 @@ img{
     width:100%;
     height: auto;
     object-fit: scale-down;
+}
+
+.worksheet-list {
+    list-style-type: disc;    /* Add bullets */
+    padding-left: 16px;       /* Add left padding for bullets */
+    margin: 0;
+}
+
+.worksheet-item {
+    padding-left: 8px;        /* Space between bullet and content */
+}
+
+.document-link {
+    display: block;
+    min-height: 24px;
+    border-radius: 4px;
+}
+
+.document-link:hover{
+    color: #e57948;
 }

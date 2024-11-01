@@ -17,7 +17,7 @@ h2{
 }
 h3{
     font-size: 16px;
-    background-color: #478499;
+    background-color: #095772;
     width: fit-content;
     color: #fff;
     padding: 2px 5px;
@@ -182,6 +182,9 @@ button.btn{
     margin-top: 10px;
     /* background-color: #e57948; */
     border: 5px solid #e57948;
+    padding: 16px 24px;
+    min-height: 48px;
+    min-width: 48px;
     color: #e57948;
     text-transform: capitalize;
     line-height: 1.2;
@@ -232,7 +235,7 @@ img{
 footer{
     height: 15vh;
     padding: 20px;
-    background: #478499;
+    background: #095772;
     color: #fff;
     text-align: center;
 }

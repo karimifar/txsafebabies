@@ -251,8 +251,8 @@ button.btn {
 }
 button.download{
   font-size: 18px;
-  background-color: #478499;
-  border-color: #478499;
+  background-color: #387088;
+  border-color: #387088;
   text-transform: none;
 }
 .buttons-wrap {
@@ -361,7 +361,7 @@ h4.name {
   margin-bottom: 2px;
 }
 p.title {
-  color: #478499;
+  color: #387088;
   margin-bottom: 30px;
   font-size: 14px;
 }
@@ -435,7 +435,6 @@ div.register {
 .webinar-speaker .speaker-img {
   width: 30%;
   height: auto
-  max-width: ;
 }
 h2.webinar-title {
   font-weight: 700;
@@ -448,7 +447,7 @@ h2.webinar-title {
   font-size: 18px;
 }
 .webinar-info .date {
-  color: #478499;
+  color: #387088;
   font-weight: 700;
   margin-bottom: 24px;
 }
@@ -466,7 +465,7 @@ img.speaker {
   /* text-align: right; */
   /* padding: 20px; */
   font-size: 14px;
-  background-color: #6cabb9;
+  background-color: #387088;
   color: #fff;
   height: fit-content;
 }
