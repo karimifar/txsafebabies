@@ -253,6 +253,7 @@ button.download{
   font-size: 18px;
   background-color: #478499;
   border-color: #478499;
+  text-transform: none;
 }
 .buttons-wrap {
   justify-content: center;
@@ -361,7 +362,7 @@ h4.name {
 }
 p.title {
   color: #478499;
-  margin-bottom: 3px;
+  margin-bottom: 30px;
   font-size: 14px;
 }
 
