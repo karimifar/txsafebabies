@@ -232,10 +232,48 @@ img{
     object-fit: scale-down;
 }
 
-footer{
-    height: 15vh;
-    padding: 20px;
+footer {
     background: #095772;
     color: #fff;
+    padding: 1rem 1rem;
     text-align: center;
+    font-size: 0.8rem;
+}
+
+.footer {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer p {
+    margin: 0.75rem 0;
+    line-height: 1.5;
+}
+
+.policy-links {
+    margin: 0.75rem 0;
+}
+
+.policy-links a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 0.5rem;
+    transition: color 0.2s ease;
+}
+
+.policy-links a:hover {
+    color: #ccc;
+}
+
+.separator {
+    color: #ffffff80;
+}
+
+.contact a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.contact a:hover {
+    color: #ccc;
 }
